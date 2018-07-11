@@ -39,24 +39,24 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Education</a>
+          <a class="nav-link" href="#education">Education</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Skills</a>
+          <a class="nav-link" href="#skills">Skills</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Blog
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="#">My Recipes</a>
-            <a class="dropdown-item" href="#">Vacation</a>
-            <a class="dropdown-item" href="#">Photography</a>
+            <a class="dropdown-item" href="#recipies">My Recipes</a>
+            <a class="dropdown-item" href="#vacation">Vacation</a>
+            <a class="dropdown-item" href="#photography">Photography</a>
           </div>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Portfolio</a>
-          </li>
+          <a class="nav-link" href="#portfolio">Portfolio</a>
+        </li>
       </ul>
     </div>
   </nav>
@@ -67,8 +67,9 @@
 
     <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
       <div class="my-auto">
-        <img src="assets/images/profilepic.jpg" width="200" height="200" class="rounded float-left img-fluid" alt="...">
-        <h1 class="mb-0">Gayathri
+        <img style="margin-right: 10px; border-radius: 50%; float:left;" src="assets/images/profilepic.jpg" width="200" height="200"
+          alt="...">
+        <h1>Gayathri
           <span class="text-primary">Chandra Sekar</span>
         </h1>
         <div class="subheading mb-5">3802 E Baseline Rd, Phoenix, AZ 85042 4809388965 ·
@@ -119,7 +120,7 @@
     <hr>
     <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
       <div class="my-auto">
-        <h2 class="mb-5">Education</h2>
+        <h2 class="mb-5 text-center">Education</h2>
 
         <div class="resume-item d-flex flex-column flex-md-row mb-5">
           <div class="resume-content mr-auto">
@@ -149,7 +150,7 @@
     <hr>
     <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
       <div class="my-auto">
-        <h2 class="mb-5">Skills</h2>
+        <h2 class="mb-5 text-center">Skills</h2>
 
         <div class="subheading mb-3">Full Stack Web Developer</div>
         <div class="text-center">
@@ -202,10 +203,10 @@
         </ul>
       </div>
     </section>
-<hr>
+    <hr>
     <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
       <div class="my-auto">
-        <h2 class="mb-5">Interests</h2>
+        <h2 class="mb-5 text-center">Interests</h2>
         <p>I love to keep my house pleasant and good looking so I spend some time in DIY crafts and organising stuffs often.
           I watch a lot of science fiction and fantacy movies. Knitting is another great thing I love. I am not a great knitting
           person but I love to do some small knitting stuffs for myself and for decorating my house. I also enjoy window
@@ -216,51 +217,88 @@
         </p>
       </div>
     </section>
-<hr>
-<div class="container-fluid bg-3 text-center">    
-    <h3>Portfolio</h3><br>
-    <div class="row">
-      <div class="col-sm-3" >
-          <img id="container1" src="assets/images/triviabg.jpg" class="img-responsive" style="width:100%" alt="Image">
-          <a href="https://aishucr.github.io/TriviaGame/" ><p class="container" style="width: 100%" id="text-block1">Jungle Trivia</p></a>
-        
-      </div>
-      <div class="col-sm-3"> 
+    <hr>
+    <div class="container-fluid bg-3" id="portfolio">
+      <h3 class="text-center">Portfolio</h3>
+      <br>
+      <div class="row">
+        <div class="col-sm-3">
+          <img id="container1" src="assets/images/triviabg.jpg" class="img-responsive" alt="Image">
+          <div class="text-block1">
+            <a href="https://aishucr.github.io/TriviaGame/">
+              <p class="shadow-lg p-3 mb-5 bg-primary rounded" id="title1">Jungle Trivia</p>
+            </a>
+          </div>
+        </div>
+        <br>
+        <div class="col-sm-3">
           <img id="container2" src="assets/images/wordbg.jpg" class="img-responsive" style="width:100%" alt="Image">
-          <a href="https://aishucr.github.io/Word-Guess-Game/"></a><p id="text-block2">Word Guess Game</p></a>  
-      </div>
-      <div class="col-sm-3"> 
+          <div class="text-block2">
+            <a href="https://aishucr.github.io/Word-Guess-Game/">
+            <p class="shadow-lg p-3 mb-5 bg-primary rounded" id="title2">Word Guess Game</p>
+            </a>
+          </div>
+        </div>
+        <br>
+        <div class="col-sm-3">
           <img id="container3" src="assets/images/throne.jpg" class="img-responsive" style="width:100%" alt="Image">
-        <a href="https://aishucr.github.io/unit-4-game/"><p id="text-block3">Game of Thrones</p></a> 
-      </div>
-      <div class="col-sm-3">
+          <div class="text-block3">
+            <a href="https://aishucr.github.io/unit-4-game/">
+              <p class="shadow-lg p-3 mb-5 bg-primary rounded" id="title3">Game of Thrones</p>
+            </a>
+          </div>
+        </div>
+        <br>
+        <div class="col-sm-3">
           <img id="container4" src="assets/images/giphy (1).gif" class="img-responsive" style="width:100%" alt="Image">
-        <a href="https://aishucr.github.io/giftastic/"><p id="text-block4">Giftastics</p></a> 
+          <div class="text-block4">
+            <a href="https://aishucr.github.io/giftastic/">
+              <p class="shadow-lg p-3 mb-5 bg-primary rounded" id="title4">Giftastics</p>
+            </a>
+          </div>
+        </div>
       </div>
     </div>
-  </div><br><br>
-  
-  <div class="container-fluid bg-3 text-center">    
-    <div class="row">
-      <div class="col-sm-3">
-        <img id="container5" src="assets/images/trainbg.jpg" class="img-responsive" style="width:100%" alt="Image">
-        <a href="https://aishucr.github.io/TrainTime/"><p id="text-block5">Train Tracker</p></a>
-      </div>
-      <div class="col-sm-3"> 
-        <img id="container6" src="assets/images/gdelt.png" class="img-responsive" style="width:100%" alt="Image">
-        <a href="https://aishucr.github.io/TheWicketNailer-s/" ><p id="text-block6">Project-1</p></a>
-      </div>
-      <div class="col-sm-3"> 
-        <img id="container7" src="" class="img-responsive" style="width:100%" alt="Image">
-        <a href="https://placehold.it/150x80?text=IMAGE"><p id="text-block7">Project-2</p></a>
-      </div>
-      <div class="col-sm-3">
-        
-        <img id="container8" src="" class="img-responsive" style="width:100%" alt="Image">
-        <a href="https://placehold.it/150x80?text=IMAGE"><p id="text-block8">title</p></a> 
+    <br>
+    <br>
+
+    <div class="container-fluid bg-3 text-center">
+      <div class="row">
+        <div class="col-sm-3">
+          <img id="container5" src="assets/images/trainbg.jpg" alt="Image">
+          <div class="text-block5">
+            <a href="https://aishucr.github.io/TrainTime/">
+              <p class="shadow-lg p-3 mb-5 bg-primary rounded" id="title5">Train Tracker</p>
+            </a>
+          </div>
+        </div>
+        <br>
+        <div class="col-sm-3">
+          <img id="container6" src="assets/images/gdelt.png" style="width:100%" alt="Image">
+          <div class="text-block6">
+            <a href="https://aishucr.github.io/TheWicketNailer-s/">
+              <p class="shadow-lg p-3 mb-5 bg-primary rounded" id="title6">Project-1</p>
+            </a>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <img id="container7" src="assets/images/dummy1.jpeg" class="img-responsive" style="width:100%" alt="Image">
+          <div class="text-block7">
+            <a href="">
+              <p class="shadow-lg p-3 mb-5 bg-primary rounded" id="title7">Project-2</p>
+            </a>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <img id="container8" src="assets/images/dummy2.jpg" class="img-responsive" style="width:100%" alt="Image">
+          <div class="text-block8"><a href="">
+            <p class="shadow-lg p-3 mb-5 bg-primary rounded" id="title8">Project-3</p>
+          </a></div>
+        </div>
       </div>
     </div>
-  </div><br><br>
+    <br>
+    <br>
 
 
   </div>
