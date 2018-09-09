@@ -3,414 +3,364 @@
 
 <head>
 
-<!-- Bootstrap-->
+  <!-- Bootstrap-->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
-    crossorigin="anonymous">  <meta charset="utf-8">
+    crossorigin="anonymous">
+  <meta charset="utf-8">
   <title>Resume</title>
 
-  
+  <!--w3 link-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+
   <!--js, jquery bootstrap link-->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
     crossorigin="anonymous"></script>
-  
+
   <!--linking font awesome-->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
     crossorigin="anonymous">
   <!-- Custom stylesheet-->
   <link rel="stylesheet" href="assets/style.css">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--materialize icon-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
-<body id="page-top">
-  <nav class="navbar navbar-expand-lg navbar navbar-dark bg-primary">
-    <a class="navbar-brand" href="#">Gayathri Chandra Sekar</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
-      aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">About
-            <span class="sr-only">(current)</span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#education">Education</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#skills">Skills</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Blog
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="#recipies">My Recipes</a>
-            <a class="dropdown-item" href="#vacation">Vacation</a>
-            <a class="dropdown-item" href="#photography">Photography</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#portfolio">Portfolio</a>
-        </li>
-      </ul>
+<body class="bg-light">
+  <div class="hero-image" style="background-image: url('portfolio-bg.jpg')">
+    <div class="hero-text">
+      <h1 style="font-size:50px" class="text-warning animation-delay:7s  w3-container w3-animate-top">Gayathri Chandra Sekar</h1>
+      <p class="text-warning animation-delay:7s w3-container w3-animate-top">I''m a Full Stact Web Developer</p>
+      <button class="bg-warning w3-container w3-animate-top animation-delay:7s">
+        <a href="#about">View more</a>
+      </button>
     </div>
-  </nav>
-
-
-
-  <div class="container-fluid p-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
-      <div class="my-auto">
-        <img style="margin-right: 10px; border-radius: 50%; float:left;" src="assets/images/profilepic.jpg" width="200" height="200"
-          alt="...">
-        <h1>Gayathri
-          <span class="text-primary">Chandra Sekar</span>
-        </h1>
-        <div class="subheading mb-5">3802 E Baseline Rd, Phoenix, AZ 85042 4809388965 ·
-          <a href="crishwarya@gmail.com">crishwarya@gmail.com</a>
-        </div>
-        <p class="mb-5">I did my bachelors in Electrical Engineering and took a total switch over to web development because I found it to
+  </div>
+  <ul class="nav justify-content-center bg-dark" style="position:sticky; top:0; padding:10px; border-bottom: solid 4px black;">
+    <li class="nav-item">
+      <a class="nav-link active text-warning" href="#">About</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-warning" href="#">Education</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-warning" href="#">Skills</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-warning" href="#">Portfolio</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-warning" href="#">contact</a>
+    </li>
+  </ul>
+  <br>
+  <div class="container-fluid row">
+    <div class="col-12 text-center" style="padding: 5px;">
+      <h1 style="text-decoration-line: underline; padding: 5px;" id="about">About</h1>
+    </div>
+  </div>
+  <br>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-lg-6">
+        <img class="col-7" style="margin-left: 70px; margin-right:70px;" src="assets/images/profilepic.jpg" width="200" height="200"
+          alt="profilepic">
+        <br>
+        <p class="text-dark col-12 text-center">I did my bachelors in Electrical Engineering and took a total switch over to web development because I found it to
           be fun with designing pages and trying to develop apps. I have been learning web development for about an year
           now and also did some projects as well, after joining the bootcamp. After joining the botcamp I've been exposed
           to some group work exposure and handling situations. </p>
-
       </div>
-    </section>
-    <hr>
-    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
-      <div class="my-auto">
-        <h2 class="mb-5 text-center">EDUCATION</h2>
-
-        <div class="resume-item d-flex flex-column flex-md-row mb-5">
-          <div class="resume-content mr-auto">
-            <h3 class="mb-0">T.J Institute of Technology</h3>
-            <div class="subheading mb-3">Bachelor of Engineering</div>
-            <div>Electrical and Electronics Engineering</div>
-            <p>GPA: 3.23</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">2009 - 2013</span>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row">
-          <div class="resume-content mr-auto">
-            <h3 class="mb-0">University of Arizona, Bootcamp</h3>
-            <div class="subheading mb-3">Web Development</div>
-            <p>GPA: 3.56</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">April 2018 - October 2018 </span>
-          </div>
-        </div>
-
-      </div>
-    </section>
-    <hr>
-    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
-      <div class="my-auto">
-        <h2 class="mb-5 text-center">SKILLS</h2>
-
-        <div class="subheading mb-3 text-center">Full Stack Web Developer</div>
-        <div class="text-center">
-          <ul class="list-inline list-icons">
-            <li class="list-inline-item">
-              <i class="fab fa-html5 fa-5x"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="fab fa-css3 fa-5x"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="fab fa-js-square fa-5x"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="fab fa-npm fa-5x"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="fab fa-github fa-5x"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-less"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-bootstrap"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-wordpress"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-grunt"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-gulp"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-npm"></i>
-            </li>
-          </ul>
-        </div>
-
-        <div class="subheading mb-3">Workflow</div>
-        <ul class="fa-ul mb-0">
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Mobile-First, Responsive Design</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Testing and Debugging</li>
-
-        </ul>
-      </div>
-    </section>
-    <hr>
-    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
-      <div class="my-auto">
-        <h2 class="mb-5 text-center">INTEREST</h2>
-        <p>I love to keep my house pleasant and good looking so I spend some time in DIY crafts and organising stuffs often.
-          I watch a lot of science fiction and fantacy movies. Knitting is another great thing I love. I am not a great knitting
-          person but I love to do some small knitting stuffs for myself and for decorating my house. I also enjoy window
-          shopping. Winter is kind of fun for me in Arizona. I like to go for morning hiking in the winter and spend some
-          time in the gym in the summer. I am a great cook so I like to spend my free time in cooking as well. Apart from
-          these I love to code pages with different designs and check then out. When I go for vacations I like to click a
-          lot of pics. This credit definitely goes to the inspiring mother nature.
-        </p>
-      </div>
-    </section>
-    <hr>
-    <!-- <div class="container-fluid bg-3" id="portfolio">
-      <h3 class="text-center">Portfolio</h3>
-      <br>
-      <div class="row">
-        <div class="col-sm-3">
-          <img id="container1" src="assets/images/triviabg.jpg" class="img-responsive" alt="Image">
-          <div class="text-block1">
-            <a href="https://aishucr.github.io/TriviaGame/">
-              <p class="shadow-lg p-3 mb-5 bg-primary rounded" id="title1">Jungle Trivia</p>
-            </a>
-          </div>
+      <div class="col-sm-12 col-lg-6">
+        <div class="container">
+          <p style="float: left; background-color: #FFD12A; color:black; padding:6px;">HTML</p>
+          <div class="skills html">90%</div>
         </div>
         <br>
-        <div class="col-sm-3">
-          <img id="container2" src="assets/images/wordbg.jpg" class="img-responsive" style="width:100%" alt="Image">
-          <div class="text-block2">
-            <a href="https://aishucr.github.io/Word-Guess-Game/">
-            <p class="shadow-lg p-3 mb-5 bg-primary rounded" id="title2">Word Guess Game</p>
-            </a>
-          </div>
+        <div class="container">
+          <p style="float: left; background-color: #FFD12A; color:black; padding:6px;">CSS</p>
+          <div class="skills css">90%</div>
         </div>
         <br>
-        <div class="col-sm-3">
-          <img id="container3" src="assets/images/throne.jpg" class="img-responsive" style="width:100%" alt="Image">
-          <div class="text-block3">
-            <a href="https://aishucr.github.io/unit-4-game/">
-              <p class="shadow-lg p-3 mb-5 bg-primary rounded" id="title3">Game of Thrones</p>
-            </a>
-          </div>
+        <div class="container">
+          <p style="float: left; background-color: #FFD12A; color:black; padding:6px;">JavaScript</p>
+          <div class="skills js">85%</div>
         </div>
         <br>
-        <div class="col-sm-3">
-          <img id="container4" src="assets/images/giphy (1).gif" class="img-responsive" style="width:100%" alt="Image">
-          <div class="text-block4">
-            <a href="https://aishucr.github.io/giftastic/">
-              <p class="shadow-lg p-3 mb-5 bg-primary rounded" id="title4">Giftastics</p>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div> -->
-    <!--portfolio design-->
-    <section class="bg-secondary" id="portfolio">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Portfolio</h2>
-            <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" href="https://aishucr.github.io/TriviaGame/">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fa fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="assets/images/trivia.png" alt="">
-            </a>
-            <div class="portfolio-caption">
-              <h4>Trivia Game</h4>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" href="https://aishucr.github.io/unit-4-game/">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fa fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="assets/images/got.png" alt="">
-            </a>
-            <div class="portfolio-caption">
-              <h4>Game of Thrones</h4>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" href="https://aishucr.github.io/TrainTime/">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fa fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="assets/images/trainschedule.png" alt="">
-            </a>
-            <div class="portfolio-caption">
-              <h4>Train Tracker</h4>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" href="https://aishucr.github.io/Word-Guess-Game/">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fa fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="assets/images/hangman.png" alt="">
-            </a>
-            <div class="portfolio-caption">
-              <h4>Hangman Game</h4>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" href="https://github.com/AishuCR/Bamazon.git">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fa fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="assets/images/customerjs.png" alt="">
-            </a>
-            <div class="portfolio-caption">
-              <h4>Bamazon</h4>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" href="https://aishucr.github.io/TheWicketNailer-s/">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fa fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="assets/images/glean.png" alt="">
-            </a>
-            <div class="portfolio-caption">
-              <h4>The GDELT</h4>
-            </div>
-          </div>
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" href="">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fa fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="assets/images/friend_finder.jpeg" alt="">
-          </a>
-          <div class="portfolio-caption">
-              <h4>Friend Finder</h4>
-        </div>
-      </div>
-    </section>
-
-    <!-- <div class="container-fluid bg-3 text-center">
-      <div class="row">
-        <div class="col-sm-3">
-          <img id="container5" src="assets/images/trainbg.jpg" alt="Image">
-          <div class="text-block5">
-            <a href="https://aishucr.github.io/TrainTime/">
-              <p class="shadow-lg p-3 mb-5 bg-primary rounded" id="title5">Train Tracker</p>
-            </a>
-          </div>
+        <div class="container">
+          <p style="float: left; background-color: #FFD12A; color:black; padding:6px;">Angular</p>
+          <div class="skills angular">60%</div>
         </div>
         <br>
-        <div class="col-sm-3">
-          <img id="container6" src="assets/images/gdelt.png" style="width:100%" alt="Image">
-          <div class="text-block6">
-            <a href="https://aishucr.github.io/TheWicketNailer-s/">
-              <p class="shadow-lg p-3 mb-5 bg-primary rounded" id="title6">Project-1</p>
-            </a>
-          </div>
+        <div class="container">
+          <p style="float: left; background-color: #FFD12A; color:black; padding:6px;">node.js</p>
+          <div class="skills node">60%</div>
         </div>
-        <div class="col-sm-3">
-          <img id="container7" src="assets/images/dummy1.jpeg" class="img-responsive" style="width:100%" alt="Image">
-          <div class="text-block7">
-            <a href="">
-              <p class="shadow-lg p-3 mb-5 bg-primary rounded" id="title7">Project-2</p>
-            </a>
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <img id="container8" src="assets/images/dummy2.jpg" class="img-responsive" style="width:100%" alt="Image">
-          <div class="text-block8"><a href="">
-            <p class="shadow-lg p-3 mb-5 bg-primary rounded" id="title8">Project-3</p>
-          </a></div>
+        <br>
+        <div class="container">
+          <p style="float: left; background-color: #FFD12A; color:black; padding:6px;">MySQL</p>
+          <div class="skills sql">70%</div>
         </div>
       </div>
-    </div> -->
-    <hr>
-    <div style="text-align: center;">
-      <ul class="list-inline list-social-icons">
-        <li class="list-inline-item">
-          <a href="#">
-            <span class="fa-stack fa-lg">
-              <i class="fa fa-circle fa-stack-2x"></i>
-              <i class="fab fa-facebook-square fa-stack-1x fa-inverse"></i>
-            </span>
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a href="#">
-            <span class="fa-stack fa-lg">
-              <i class="fa fa-circle fa-stack-2x"></i>
-              <i class="fab fa-twitter-square fa-stack-1x fa-inverse"></i>
-            </span>
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a href="#">
-            <span class="fa-stack fa-lg text-center">
-              <i class="fa fa-circle fa-stack-2x"></i>
-              <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
-            </span>
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a href="#">
-            <span class="fa-stack fa-lg text-center">
-              <i class="fa fa-circle fa-stack-2x"></i>
-              <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-            </span>
-          </a>
-        </li>
-      </ul>
     </div>
 
+    <div class="row">
+      <div class="col-lg-3 col-sm-6 shape">
+        <div class="hexagon">
+          <i class="fa fa-rocket hex-img" style="font-size:48px; text-align: center; top: 20px;"></i>
+        </div>
+        <h3 class="text-center">Fast</h3>
+        <p class="text-center">I would like to build my website pages to be fast and lag free response.</p>
+      </div>
+      <div class="col-lg-3 col-sm-6 shape">
+        <div class="hexagon">
+          <i class=" material-icons hex-img" style="font-size:48px; text-align: center; top: 20px;">build</i>
+        </div>
+        <h3 class="text-center">Intuitive</h3>
+        <p class="text-center">Prefer easy to use UI</p>
+      </div>
+      <div class="col-lg-3 col-sm-6 shape">
+        <div class="hexagon">
+          <i class="material-icons hex-img" style="font-size:48px; text-align: center; top: 20px;">devices</i>
+        </div>
+        <h3 class="text-center">Responsive</h3>
+        <p class="text-center">A responsive web page.</p>
+      </div>
+      <div class="col-lg-3 col-sm-6 shape">
+        <div class="hexagon">
+          <i class="material-icons hex-img" style="font-size:48px; text-align: center; top: 20px;">developer_board</i>
+        </div>
+        <h3 class="text-center">Dynamic</h3>
+        <p class="text-center">A page with user interations make the page lively.</p>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+  <br>
+  <div class="row">
+    <h2 class="col-12 text-center w3-container w3-center w3-animate-left" style="margin-bottom:50px;">
+      <u>EDUCATION</u>
+    </h2>
+    <div class="col-lg-6 col-sm-12">
+      <i class="material-icons" style="font-size: 48px; margin-bottom:50px; text-align: center; margin-left:50%">account_balance</i>
+      <br>
+      <h3 class="text-center">T.J Institute of Technology</h3>
+      <h4 class="text-center">Bachelor of Engineering</h4>
+      <p class="text-center">Electrical and Electronics Engineering</p>
+      <p class="text-center">SEPT 2009 - APR 2013</p>
+    </div>
+    <div class="col-lg-6 col-sm-12">
+      <i class="material-icons" style="font-size: 48px; margin-bottom:50px; text-align: center; margin-left:50%;">developer_mode</i>
+      <br>
+      <h3 class="text-center">University of Arizona</h3>
+      <h4 class="text-center">Bootcamp Certification</h4>
+      <p class="text-center">Web Development</p>
+      <p class="text-center">April 2018 - OCT 2018</p>
+    </div>
+  </div>
 
   </div>
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <hr>
+  <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
+    <div class="my-auto">
+      <h2 class="mb-5 text-center">INTEREST</h2>
+      <p>I love to keep my house pleasant and good looking so I spend some time in DIY crafts and organising stuffs often. I
+        watch a lot of science fiction and fantacy movies. Knitting is another great thing I love. I am not a great knitting
+        person but I love to do some small knitting stuffs for myself and for decorating my house. I also enjoy window shopping.
+        Winter is kind of fun for me in Arizona. I like to go for morning hiking in the winter and spend some time in the
+        gym in the summer. I am a great cook so I like to spend my free time in cooking as well. Apart from these I love
+        to code pages with different designs and check them out. When I go for vacations I like to click a lot of pics. This
+        credit definitely goes to the inspiring mother nature.
+      </p>
+    </div>
+  </section>
+  <hr>
+  <!--portfolio design-->
+  <div class="col-lg-12 text-center">
+    <h2 class="section-heading text-uppercase text-dark" style="margin-bottom: 50px;">Portfolio</h2>
+    <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
+  </div>
+  <div class="container" id="portfolio">
+    <div class="row">
+      <div class="col-md-4 col-sm-6 portfolio-item">
+        <a class="portfolio-link" href="https://fathomless-cove-43828.herokuapp.com/">
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content">
+              <div class="text-warning">
+                <h4>Eat-Da-Burger</h4>
+                <br>
+                <button class="button-style">View more</button>
+              </div>
+            </div>
+          </div>
+          <img class="img-fluid" src="assets/images/burger_app.png" alt="">
+        </a>
 
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+      </div>
+      <div class="col-md-4 col-sm-6 portfolio-item">
+        <a class="portfolio-link" href="https://aishucr.github.io/TriviaGame/">
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content">
+              <div class="text-warning">
+                <h4>Trivia Game</h4>
+                <br>
+                <button class="button-style">View more</button>
+              </div>
+            </div>
+          </div>
+          <img class="img-fluid" src="assets/images/trivia.png" alt="">
+        </a>
 
-  <!-- Custom scripts for this template -->
-  <script src="js/resume.min.js"></script>
+      </div>
+      <div class="col-md-4 col-sm-6 portfolio-item">
+        <a class="portfolio-link" href="https://aishucr.github.io/unit-4-game/">
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content">
+              <div class="text-warning">
+                <h4>Game of Thrones</h4>
+                <br>
+                <button class="button-style">View more</button>
+              </div>
+            </div>
+          </div>
+          <img class="img-fluid" src="assets/images/got.png" alt="">
+        </a>
+
+      </div>
+      <div class="col-md-4 col-sm-6 portfolio-item">
+        <a class="portfolio-link" href="https://aishucr.github.io/TrainTime/">
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content">
+              <div class="text-warning">
+                <h4>Train Tracker</h4>
+                <br>
+                <button class="button-style">View more</button>
+              </div>
+            </div>
+          </div>
+          <img class="img-fluid" src="assets/images/trainschedule.png" alt="">
+        </a>
+
+      </div>
+      <div class="col-md-4 col-sm-6 portfolio-item">
+        <a class="portfolio-link" href="https://aishucr.github.io/Word-Guess-Game/">
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content">
+              <div class="text-warning">
+                <h4>Hangman Game</h4>
+                <br>
+                <button class="button-style">View more</button>
+              </div>
+            </div>
+          </div>
+          <img class="img-fluid" src="assets/images/hangman.png" alt="">
+        </a>
+
+      </div>
+      <div class="col-md-4 col-sm-6 portfolio-item">
+        <a class="portfolio-link" href="https://github.com/AishuCR/Bamazon.git">
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content">
+              <div class="text-warning">
+                <h4>Bamazon</h4>
+                <br>
+                <button class="button-style">View more</button>
+              </div>
+            </div>
+          </div>
+          <img class="img-fluid" src="assets/images/customerjs.png" alt="">
+        </a>
+
+      </div>
+      <div class="col-md-4 col-sm-6 portfolio-item">
+        <a class="portfolio-link" href="https://aishucr.github.io/TheWicketNailer-s/">
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content">
+              <div class="text-warning">
+                <h4>The GDELT</h4>
+                <br>
+                <button class="button-style">View more</button>
+              </div>
+            </div>
+          </div>
+          <img class="img-fluid" src="assets/images/glean.png" alt="">
+        </a>
+
+      </div>
+      <div class="col-md-4 col-sm-6 portfolio-item">
+        <a class="portfolio-link" href="https://aishucr.github.io/Word-Guess-Game/">
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content">
+              <div class="text-warning">
+                <h4>Friend Finder</h4>
+                <br>
+                <button class="button-style">View more</button>
+              </div>
+            </div>
+          </div>
+          <img class="img-fluid" src="assets/images/friendsbg.jpg" alt="">
+        </a>
+
+      </div>
+      </div>
+      </div>
+
+      <hr>
+      <div style="text-align: center;">
+        <ul class="list-inline list-social-icons">
+          <li class="list-inline-item">
+            <a href="#">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fab fa-facebook-square fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fab fa-twitter-square fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#">
+              <span class="fa-stack fa-lg text-center">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#">
+              <span class="fa-stack fa-lg text-center">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/resume.min.js"></script>
 
 </body>
 
