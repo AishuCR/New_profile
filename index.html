@@ -28,10 +28,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!--materialize icon-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
 </head>
 
 <body class="bg-light">
-  <div class="hero-image" style="background-image: url('portfolio-bg.jpg')">
+  <div class="hero-image" style="background-image: url('assets/images/portfolio-bg.jpg')">
     <div class="hero-text">
       <h1 style="font-size:50px" class="text-warning animation-delay:7s  w3-container w3-animate-top">Gayathri Chandra Sekar</h1>
       <p class="text-warning animation-delay:7s w3-container w3-animate-top">I''m a Full Stact Web Developer</p>
@@ -42,16 +44,16 @@
   </div>
   <ul class="nav justify-content-center bg-dark" style="position:sticky; top:0; padding:10px; border-bottom: solid 4px black;">
     <li class="nav-item">
-      <a class="nav-link active text-warning" href="#">About</a>
+      <a class="nav-link active text-warning" href="#about">About</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link text-warning" href="#">Education</a>
+      <a class="nav-link text-warning" href="#education">Education</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link text-warning" href="#">Skills</a>
+      <a class="nav-link text-warning" href="#interest">Interest</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link text-warning" href="#">Portfolio</a>
+      <a class="nav-link text-warning" href="#portfolio-content">Portfolio</a>
     </li>
     <li class="nav-item">
       <a class="nav-link text-warning" href="#">contact</a>
@@ -66,7 +68,7 @@
   <br>
   <div class="container">
     <div class="row">
-      <div class="col-sm-12 col-lg-6">
+      <div class="col-sm-12 col-lg-6" id="about">
         <img class="col-7" style="margin-left: 70px; margin-right:70px;" src="assets/images/profilepic.jpg" width="200" height="200"
           alt="profilepic">
         <br>
@@ -144,7 +146,7 @@
   <br>
   <div class="row">
     <h2 class="col-12 text-center w3-container w3-center w3-animate-left" style="margin-bottom:50px;">
-      <u>EDUCATION</u>
+      <u id="education">EDUCATION</u>
     </h2>
     <div class="col-lg-6 col-sm-12">
       <i class="material-icons" style="font-size: 48px; margin-bottom:50px; text-align: center; margin-left:50%">account_balance</i>
@@ -168,7 +170,7 @@
 
   <hr>
   <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
-    <div class="my-auto">
+    <div class="my-auto" id="interest">
       <h2 class="mb-5 text-center">INTEREST</h2>
       <p>I love to keep my house pleasant and good looking so I spend some time in DIY crafts and organising stuffs often. I
         watch a lot of science fiction and fantacy movies. Knitting is another great thing I love. I am not a great knitting
@@ -182,7 +184,7 @@
   </section>
   <hr>
   <!--portfolio design-->
-  <div class="col-lg-12 text-center">
+  <div class="col-lg-12 text-center" id="portfolio-content">
     <h2 class="section-heading text-uppercase text-dark" style="margin-bottom: 50px;">Portfolio</h2>
     <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
   </div>
@@ -308,59 +310,96 @@
         </a>
 
       </div>
-      </div>
-      </div>
-
-      <hr>
-      <div style="text-align: center;">
-        <ul class="list-inline list-social-icons">
-          <li class="list-inline-item">
-            <a href="#">
-              <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fab fa-facebook-square fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a href="#">
-              <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fab fa-twitter-square fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a href="#">
-              <span class="fa-stack fa-lg text-center">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a href="#">
-              <span class="fa-stack fa-lg text-center">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-        </ul>
-      </div>
-
-
     </div>
+  </div>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <br>
 
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <section id="contact">
+    <div class="section-content">
+      <h1 class="section-header text-center">Get in
+        <span class="content-header wow fadeIn" data-wow-delay="0.2s" data-wow-duration="2s"> Touch with us</span>
+      </h1>
+    </div>
+    <div class="contact-section">
+      <div class="container bg-warning">
+        <form>
+          <div class="col-md-6 form-line">
+            <div class="form-group">
+              <label for="exampleInputUsername">Your name</label>
+              <input type="text" class="form-control" id="" placeholder=" Enter Name">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputEmail">Email Address</label>
+              <input type="email" class="form-control" id="exampleInputEmail" placeholder=" Enter Email id">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="description"> Message</label>
+              <textarea class="form-control" id="description" placeholder="Enter Your Message"></textarea>
+            </div>
+            <div>
 
-    <!-- Custom scripts for this template -->
-    <script src="js/resume.min.js"></script>
+              <button type="button" class="btn btn-default submit">
+                <i class="fa fa-paper-plane" aria-hidden="true"></i> Send Message</button>
+            </div>
+
+          </div>
+        </form>
+      </div>
+  </section>
+
+  <hr>
+  <div style="text-align: center;">
+    <ul class="list-inline list-social-icons">
+      <li class="list-inline-item">
+        <a href="#">
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fab fa-facebook-square fa-stack-1x fa-inverse"></i>
+          </span>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a href="#">
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fab fa-twitter-square fa-stack-1x fa-inverse"></i>
+          </span>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a href="#">
+          <span class="fa-stack fa-lg text-center">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+          </span>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a href="#">
+          <span class="fa-stack fa-lg text-center">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+          </span>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+
+  </div>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/resume.min.js"></script>
 
 </body>
 
