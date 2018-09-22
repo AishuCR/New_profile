@@ -111,30 +111,30 @@
     </div>
 
     <div class="row">
-      <div class="col-lg-3 col-sm-6 shape">
-        <div class="hexagon">
-          <i class="fa fa-rocket hex-img" style="font-size:48px; text-align: center; top: 20px;"></i>
+      <div class="col-lg-3 col-sm-6 col-xs-12">
+        <div class="hexagon" style="text-align: center">
+          <i class="fa fa-rocket hex-img" style="font-size:48px; top:20px;"></i>
         </div>
         <h3 class="text-center">Fast</h3>
         <p class="text-center">I would like to build my website pages to be fast and lag free response.</p>
       </div>
-      <div class="col-lg-3 col-sm-6 shape">
+      <div class="col-lg-3 col-sm-6 col-xs-12" style="align-content: center">
         <div class="hexagon">
-          <i class=" material-icons hex-img" style="font-size:48px; text-align: center; top: 20px;">build</i>
+          <i class=" material-build hex-img" style="font-size:48px; text-align: center; top: 20px;"></i>
         </div>
         <h3 class="text-center">Intuitive</h3>
         <p class="text-center">Prefer easy to use UI</p>
       </div>
-      <div class="col-lg-3 col-sm-6 shape">
+      <div class="col-lg-3 col-sm-6 col-xs-12" style="align-content: center">
         <div class="hexagon">
-          <i class="material-icons hex-img" style="font-size:48px; text-align: center; top: 20px;">devices</i>
+          <i class="devices hex-img" style="font-size:48px; text-align: center; top: 20px;"></i>
         </div>
         <h3 class="text-center">Responsive</h3>
         <p class="text-center">A responsive web page.</p>
       </div>
-      <div class="col-lg-3 col-sm-6 shape">
+      <div class="col-lg-3 col-sm-6 col-xs-12" style="align-content: center">
         <div class="hexagon">
-          <i class="material-icons hex-img" style="font-size:48px; text-align: center; top: 20px;">developer_board</i>
+          <i class="material-icons developer_board hex-img" style="font-size:48px; text-align: center; top: 20px;"></i>
         </div>
         <h3 class="text-center">Dynamic</h3>
         <p class="text-center">A page with user interations make the page lively.</p>
@@ -310,6 +310,21 @@
         </a>
 
       </div>
+      <div class="col-md-4 col-sm-6 portfolio-item">
+        <a class="portfolio-link" href="https://shielded-garden-62923.herokuapp.com/">
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content">
+              <div class="text-warning">
+                <h4>Mongo Scraper</h4>
+                <br>
+                <button class="button-style">View more</button>
+              </div>
+            </div>
+          </div>
+          <img class="img-fluid" src="assets/images/mongo-scraper.png" alt="">
+        </a>
+
+      </div>
     </div>
   </div>
 
@@ -317,32 +332,32 @@
 
   <section id="contact">
     <div class="section-content">
-      <h1 class="section-header text-center">Get in
-        <span class="content-header wow fadeIn" data-wow-delay="0.2s" data-wow-duration="2s"> Touch with us</span>
+      <h1 class="section-header text-center">Contact
       </h1>
+      <p class="text-center">
+        <a class="btn btn-primary" href="" download="">
+          <i class="fa fa-download"></i> Download Resume</a></p>
     </div>
     <div class="contact-section">
       <div class="container bg-warning">
-        <form>
-          <div class="col-md-6 form-line">
-            <div class="form-group">
-              <label for="exampleInputUsername">Your name</label>
-              <input type="text" class="form-control" id="" placeholder=" Enter Name">
+          <!-- <form action="https://formspree.io/crishwarya@gmail.com"
+          method="POST">
+        <input type="text" name="name">
+        <input type="email" name="_replyto">
+        <input type="submit" value="Send"> -->
+        <form id="form-content" action="https://formspree.io/crishwarya@gmail.com"
+        method="POST">
+            <div>
+              <input class="form-group" type="text" name="name" placeholder="Name">
             </div>
-            <div class="form-group">
-              <label for="exampleInputEmail">Email Address</label>
-              <input type="email" class="form-control" id="exampleInputEmail" placeholder=" Enter Email id">
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="form-group">
-              <label for="description"> Message</label>
-              <textarea class="form-control" id="description" placeholder="Enter Your Message"></textarea>
+            <div >
+              <input class="form-group" type="email" name="_replyto" placeholder="Your email">
             </div>
             <div>
-
-              <button type="button" class="btn btn-default submit">
-                <i class="fa fa-paper-plane" aria-hidden="true"></i> Send Message</button>
+              <textarea class="form-group" name="message" placeholder="Your message"></textarea>
+            </div>
+            <div>
+                  <button class="float-right" type="submit">Send</button>
             </div>
 
           </div>
