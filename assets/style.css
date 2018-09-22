@@ -315,17 +315,12 @@ body{
       #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
         margin: 0;
       }
-      .contact-section{
-        padding:10px;
-      }
       #form-content{
         padding:10px;        
       }
       .form-group{
         width:100%;
       }
-
-      
       #portfolio .portfolio-item .portfolio-caption {
         max-width: 400px;
         margin: 0 auto;
@@ -337,7 +332,6 @@ body{
         margin: 0;
         text-transform: none;
       }
-      
       #portfolio * {
         z-index: 2;
       }
