@@ -33,13 +33,9 @@ body{
   height: 100px;
   background-color: rgba(254, 209, 54, 0.9);
   margin: 86.60px 0;
+  margin-left: 90px;
   
 }
- .shape{
-  margin-left:0px;
-  margin-top:20px;
-
-} 
 .hexagon:before,
 .hexagon:after {
   content: "";
@@ -265,10 +261,13 @@ body{
         background-color: teal;
         color: white;
     }
-    #portfolio .portfolio-item {
-        right: 0;
-        margin: 0 0 15px;
-      }
+    #about{
+      padding: 20px;
+    }
+    #skills{
+      padding: 20px;
+      text-align: center;
+    }
       
       #portfolio .portfolio-item .portfolio-link {
         position: relative;
@@ -282,9 +281,9 @@ body{
         position: absolute;
         width: 100%;
         height: 100%;
-        -webkit-transition: all ease 0.5s;
+        /* -webkit-transition: all ease 0.5s;
         -moz-transition: all ease 0.5s;
-        transition: all ease 0.5s;
+        transition: all ease 0.5s; */
         opacity: 0;
         background-color: white;
       }
@@ -298,15 +297,15 @@ body{
         position: absolute;
         top: 10%;
         width: 100%;
-        height: 20px;
-        margin-top: -12px;
+        /*height: 20px;*/
+        margin-top: 12px;
         text-align: center;
         color: white;
       }
       #portfolio{
         background-color:rgba(0, 0, 0, 0.5) ;
         color:black;
-        padding:30px;
+        padding: 20px;
       } 
       #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
         margin-top: -12px;
@@ -321,9 +320,13 @@ body{
       .form-group{
         width:100%;
       }
+      .portfolio-item{
+        margin-top:10px;
+        margin-left:0px;
+      }
       #portfolio .portfolio-item .portfolio-caption {
-        max-width: 400px;
-        margin: 0 auto;
+        /*max-width: 400px;*/
+        margin: 0;
         text-align: center;
         background-color: #fff;
       }
@@ -332,8 +335,6 @@ body{
         margin: 0;
         text-transform: none;
       }
-      #portfolio * {
-        z-index: 2;
-      }
+      
       
       
