@@ -1,2 +1,2 @@
 # New_profile
-https://aishucr.github.io/profile/
+https://aishucr.github.io/New_profile/
